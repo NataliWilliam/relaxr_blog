@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.max-width-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+header {
+  background-image: url("/images/header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  background-position: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+img {
+  width: 100%;
+}
+.img-1 {
+  height: calc(75% - 50px);
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+main {
+  background-color: #f0efef;
+  height: 370px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #033048;
+}
+
+.bk-img {
+  background-image: url("/images/testimonial_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.quote {
+  color: white;
+}
+
+.pre-footer {
+  width: 100%;
+  height: 90px;
+  background-color: #f7e756;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #033048;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  height: 43%;
+}
+
+.button-yellow {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f9e42e;
+  border: none;
+  color: #033048;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 186px;
+  cursor: pointer;
+  height: 90%;
+}
+.yellow {
+  color: #f7e756;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #606161;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.small-1 {
+  width: 30px;
+  height: 28px;
+  margin-right: 25px;
+}
+
+.small-2 {
+  width: 17px;
+  height: 28px;
+  padding-left: 5px;
+}
+
+.copy-right {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.benefits {
+  font-weight: 600;
+  font-size: 30px;
+  color: #033048;
+  padding-bottom: 15px;
+}
+
+.benefits-1 {
+  padding-bottom: 22px;
+  color: #033048;
+}
+
+ul > li {
+  padding-top: 5px;
+  color: #033048;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 18px;
+}
+.center {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+}
