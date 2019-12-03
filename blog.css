@@ -14,7 +14,7 @@
 }
 
 header {
-  background-image: url("/images/header_bg.jpg");
+  background-image: url("/header_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -59,7 +59,7 @@ h2 {
 }
 
 .bk-img {
-  background-image: url("/images/testimonial_bg.jpg");
+  background-image: url("/testimonial_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 260px;
